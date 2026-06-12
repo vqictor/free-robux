@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БЕСКОНЕЧНЫЙ АД</title>
+    <style>
+        body {
+            background-color: #0b0b0b; /* Deep matte black background */
+            color: #8b0000; /* Solid dark crimson red text */
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            letter-spacing: 6px;
+            font-weight: normal;
+            margin-bottom: 25px;
+        }
+
+        .disclaimer {
+            font-size: 1.1rem;
+            color: #555555; /* Muted slate gray so it blends in cleanly */
+            letter-spacing: 1px;
+            position: absolute;
+            bottom: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>БЕСКОНЕЧНЫЙ АД</h1>
+    <div class="disclaimer">это шутка, тут нет вредоносных программ </div>
+
+    <script>
+        // Waits exactly 2 seconds before redirecting to the Rickroll
+        setTimeout(function() {
+            window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=zsRG1gHq5X1X1F1_";
+        }, 2000); 
+    </script>
+
+</body>
+</html>
